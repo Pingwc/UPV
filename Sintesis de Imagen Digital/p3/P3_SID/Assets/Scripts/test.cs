@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class test : MonoBehaviour
+{
+    public GameObject t;
+    public float x;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        print(t.name);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
