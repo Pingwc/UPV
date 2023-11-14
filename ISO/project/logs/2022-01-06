@@ -1,0 +1,6 @@
+16:54:52.368968100 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+16:54:52.369968900 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+16:54:52.527004300 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+16:54:52.529004600 [INFO] - Creating Listen Socket at port: 6666
+16:54:52.530005600 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+16:54:52.530005600 [WAITING FIRST CONNECTION] 

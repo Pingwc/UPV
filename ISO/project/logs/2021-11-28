@@ -1,0 +1,145 @@
+20:52:58.631052200 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+20:52:58.633049400 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+20:52:59.066694100 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+20:52:59.070588100 [INFO] - Creating Listen Socket at port: 6666
+20:52:59.072650 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+20:52:59.073674600 [WAITING FIRST CONNECTION] 
+20:53:48.434363500 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=59362,localport=6666]
+20:54:14.669800400 [INPUT] < -1 commentIssue I2 "prueba 1" from: Socket[addr=/127.0.0.1,port=59362,localport=6666] >
+21:13:42.565465800 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+21:13:42.568016500 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+21:13:42.943564500 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+21:13:42.945561400 [INFO] - Creating Listen Socket at port: 6666
+21:13:42.947696600 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+21:13:42.947696600 [WAITING FIRST CONNECTION] 
+21:13:48.531040500 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=59503,localport=6666]
+21:13:58.091342900 [INPUT] < -1 login marcos marcos from: Socket[addr=/127.0.0.1,port=59503,localport=6666] >
+21:13:58.093919800 [DEBUG] - User: marcos | Pass DB: marcos  | Pass Input:  marcos
+21:13:58.094948200 [INFO] - Login Success. User: marcos - SessionID : _sRQDf6uuGIU0zSWC7qy1whAdau_rv0F
+21:13:58.112398300 [INFO] - SessionID: _sRQDf6uuGIU0zSWC7qy1whAdau_rv0F assigned to User: marcos
+21:14:03.567503800 [INPUT] < _sRQDf6uuGIU0zSWC7qy1whAdau_rv0F help from: Socket[addr=/127.0.0.1,port=59503,localport=6666] >
+21:14:23.062941 [INPUT] < _sRQDf6uuGIU0zSWC7qy1whAdau_rv0F listIssues pending from: Socket[addr=/127.0.0.1,port=59503,localport=6666] >
+21:14:23.064901400 [INFO] User marcos reply for issues information at session _sRQDf6uuGIU0zSWC7qy1whAdau_rv0F
+21:14:58.914730100 [INPUT] < _sRQDf6uuGIU0zSWC7qy1whAdau_rv0F listIssues asigned from: Socket[addr=/127.0.0.1,port=59503,localport=6666] >
+21:15:10.797197700 [INPUT] < _sRQDf6uuGIU0zSWC7qy1whAdau_rv0F listIssues assigned from: Socket[addr=/127.0.0.1,port=59503,localport=6666] >
+21:15:10.798464400 [INFO] User marcos reply for issues information at session _sRQDf6uuGIU0zSWC7qy1whAdau_rv0F
+21:16:36.396966200 [INPUT] < _sRQDf6uuGIU0zSWC7qy1whAdau_rv0F commentIssue I0 "prueba 1" from: Socket[addr=/127.0.0.1,port=59503,localport=6666] >
+21:16:36.402076200 [ERROR]  Failed connecting with the DB: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: comments)
+21:18:27.091998400 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+21:18:27.093058 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+21:18:27.344794700 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+21:18:27.348412600 [INFO] - Creating Listen Socket at port: 6666
+21:18:27.349410900 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+21:18:27.350408300 [WAITING FIRST CONNECTION] 
+21:18:31.049976700 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=59536,localport=6666]
+21:18:42.893898600 [INPUT] < -1 help from: Socket[addr=/127.0.0.1,port=59536,localport=6666] >
+21:18:52.613356900 [INPUT] < -1 listIssues assigned from: Socket[addr=/127.0.0.1,port=59536,localport=6666] >
+21:18:57.593623500 [INPUT] < -1 login marcos marcos from: Socket[addr=/127.0.0.1,port=59536,localport=6666] >
+21:18:57.597116500 [DEBUG] - User: marcos | Pass DB: marcos  | Pass Input:  marcos
+21:18:57.598113900 [INFO] - Login Success. User: marcos - SessionID : novbN7wqs0A27K8GlkDew6I8EnL1RDYi
+21:18:57.610888300 [INFO] - SessionID: novbN7wqs0A27K8GlkDew6I8EnL1RDYi assigned to User: marcos
+21:19:04.518859600 [INPUT] < novbN7wqs0A27K8GlkDew6I8EnL1RDYi listIssues assigned from: Socket[addr=/127.0.0.1,port=59536,localport=6666] >
+21:19:04.520884800 [INFO] User marcos reply for issues information at session novbN7wqs0A27K8GlkDew6I8EnL1RDYi
+21:19:25.815903400 [INPUT] < novbN7wqs0A27K8GlkDew6I8EnL1RDYi commentIssue I0 "prueba 1" from: Socket[addr=/127.0.0.1,port=59536,localport=6666] >
+21:19:25.823343 [ERROR]  Failed connecting with the DB: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table Comment has no column named author)
+21:20:47.636219500 [INPUT] < novbN7wqs0A27K8GlkDew6I8EnL1RDYi help from: Socket[addr=/127.0.0.1,port=59536,localport=6666] >
+22:22:11.328628300 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+22:22:11.330628200 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+22:22:11.618964700 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+22:22:11.621965700 [INFO] - Creating Listen Socket at port: 6666
+22:22:11.622956700 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+22:22:11.623951300 [WAITING FIRST CONNECTION] 
+22:22:21.536740600 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=58521,localport=6666]
+22:22:30.533765 [INPUT] < -1 login marcos marcos from: Socket[addr=/127.0.0.1,port=58521,localport=6666] >
+22:22:30.536345800 [DEBUG] - User: marcos | Pass DB: marcos  | Pass Input:  marcos
+22:22:30.537347600 [INFO] - Login Success. User: marcos - SessionID : RYWJY7DDcUCxJcKm2YPjHxC8c_XmotAI
+22:22:30.553603400 [INFO] - SessionID: RYWJY7DDcUCxJcKm2YPjHxC8c_XmotAI assigned to User: marcos
+22:23:01.096030900 [INPUT] < RYWJY7DDcUCxJcKm2YPjHxC8c_XmotAI listIssue assigned from: Socket[addr=/127.0.0.1,port=58521,localport=6666] >
+22:23:14.993697100 [INPUT] < RYWJY7DDcUCxJcKm2YPjHxC8c_XmotAI listIssues assigned from: Socket[addr=/127.0.0.1,port=58521,localport=6666] >
+22:23:14.995757900 [INFO] User marcos reply for issues information at session RYWJY7DDcUCxJcKm2YPjHxC8c_XmotAI
+22:23:28.291274700 [INPUT] < RYWJY7DDcUCxJcKm2YPjHxC8c_XmotAI commentIssue I0 "prueba 1" from: Socket[addr=/127.0.0.1,port=58521,localport=6666] >
+22:23:28.318201200 [INFO] User marcos commented the issue: I0 at session RYWJY7DDcUCxJcKm2YPjHxC8c_XmotAI
+22:25:31.183909900 [INPUT] < RYWJY7DDcUCxJcKm2YPjHxC8c_XmotAI listIssues not assigned from: Socket[addr=/127.0.0.1,port=58521,localport=6666] >
+22:25:31.185719700 [INFO] User marcos reply for issues information at session RYWJY7DDcUCxJcKm2YPjHxC8c_XmotAI
+22:25:44.835954100 [INPUT] < RYWJY7DDcUCxJcKm2YPjHxC8c_XmotAI comment I1 "comentario" from: Socket[addr=/127.0.0.1,port=58521,localport=6666] >
+22:25:57.977381 [INPUT] < RYWJY7DDcUCxJcKm2YPjHxC8c_XmotAI commentIssue I1 "comentario" from: Socket[addr=/127.0.0.1,port=58521,localport=6666] >
+23:42:03.628393600 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:42:03.629308900 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:42:04.046795200 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:42:04.049785600 [INFO] - Creating Listen Socket at port: 6666
+23:42:04.054013200 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:42:04.055012900 [WAITING FIRST CONNECTION] 
+23:42:08.367510300 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=54909,localport=6666]
+23:42:17.170327500 [INPUT] < -1 login marcos marcos from: Socket[addr=/127.0.0.1,port=54909,localport=6666] >
+23:42:17.173037 [DEBUG] - User: marcos | Pass DB: marcos  | Pass Input:  marcos
+23:42:17.174034700 [INFO] - Login Success. User: marcos - SessionID : RznlezWLHFHHf2hDJiPNPFokT_mg5OJ9
+23:42:20.503449500 [ERROR] - Failed connecting with the DB 
+23:42:27.986420800 [INPUT] < -1 help from: Socket[addr=/127.0.0.1,port=54909,localport=6666] >
+23:42:31.635422100 [INPUT] < -1 login marcos marcos from: Socket[addr=/127.0.0.1,port=54909,localport=6666] >
+23:42:31.636663500 [DEBUG] - User: marcos | Pass DB: marcos  | Pass Input:  marcos
+23:42:31.636663500 [INFO] - Login Success. User: marcos - SessionID : mcGgzrbZgXBAK78nmM-9NzZY17r1Iova
+23:42:34.926760800 [ERROR] - Failed connecting with the DB 
+23:42:57.689014600 [INPUT] < -1 login marcos marcos from: Socket[addr=/127.0.0.1,port=54909,localport=6666] >
+23:42:57.690012100 [DEBUG] - User: marcos | Pass DB: marcos  | Pass Input:  marcos
+23:42:57.690621600 [INFO] - Login Success. User: marcos - SessionID : DV04TUHVyyNZQTUmtmj7sBGLXoYlXOWA
+23:42:57.704076700 [INFO] - SessionID: DV04TUHVyyNZQTUmtmj7sBGLXoYlXOWA assigned to User: marcos
+23:43:07.441773300 [INPUT] < DV04TUHVyyNZQTUmtmj7sBGLXoYlXOWA listIssues accepted from: Socket[addr=/127.0.0.1,port=54909,localport=6666] >
+23:43:28.093856500 [INPUT] < DV04TUHVyyNZQTUmtmj7sBGLXoYlXOWA listIssues accepted from: Socket[addr=/127.0.0.1,port=54909,localport=6666] >
+23:43:38.804346600 [INPUT] < DV04TUHVyyNZQTUmtmj7sBGLXoYlXOWA listIssues not assigned from: Socket[addr=/127.0.0.1,port=54909,localport=6666] >
+23:43:38.806568300 [INFO] User marcos reply for issues information at session DV04TUHVyyNZQTUmtmj7sBGLXoYlXOWA
+23:47:44.372177600 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:47:44.373174800 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:47:44.703616300 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:47:44.706607900 [INFO] - Creating Listen Socket at port: 6666
+23:47:44.707605100 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:47:44.707605100 [WAITING FIRST CONNECTION] 
+23:47:47.571735300 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=65132,localport=6666]
+23:47:55.528152800 [INPUT] < -1 login marcos marcos from: Socket[addr=/127.0.0.1,port=65132,localport=6666] >
+23:47:55.532248200 [DEBUG] - User: marcos | Pass DB: marcos  | Pass Input:  marcos
+23:47:55.533248100 [INFO] - Login Success. User: marcos - SessionID : 0T_RL8PhTxAQn8KL1PL8SwGHSSzPgWti
+23:47:55.547532200 [INFO] - SessionID: 0T_RL8PhTxAQn8KL1PL8SwGHSSzPgWti assigned to User: marcos
+23:48:04.005071900 [INPUT] < 0T_RL8PhTxAQn8KL1PL8SwGHSSzPgWti listIssues pending from: Socket[addr=/127.0.0.1,port=65132,localport=6666] >
+23:48:04.009300300 [INFO] User marcos reply for issues information at session 0T_RL8PhTxAQn8KL1PL8SwGHSSzPgWti
+23:48:42.746327600 [INPUT] < 0T_RL8PhTxAQn8KL1PL8SwGHSSzPgWti rejectIssue I1 from: Socket[addr=/127.0.0.1,port=65132,localport=6666] >
+23:49:08.358350200 [INPUT] < 0T_RL8PhTxAQn8KL1PL8SwGHSSzPgWti rejectIssue I1 from: Socket[addr=/127.0.0.1,port=65132,localport=6666] >
+23:49:36.372229800 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:49:36.375089400 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:49:36.713728 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:49:36.716862600 [INFO] - Creating Listen Socket at port: 6666
+23:49:36.717857600 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:49:36.718916500 [WAITING FIRST CONNECTION] 
+23:49:39.486534500 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=65139,localport=6666]
+23:49:44.501295300 [INPUT] < -1 logn marcos marcos from: Socket[addr=/127.0.0.1,port=65139,localport=6666] >
+23:49:50.296997700 [INPUT] < -1 login marcos marcos from: Socket[addr=/127.0.0.1,port=65139,localport=6666] >
+23:49:50.299726600 [DEBUG] - User: marcos | Pass DB: marcos  | Pass Input:  marcos
+23:49:50.302162800 [INFO] - Login Success. User: marcos - SessionID : UOAMpr0i0GTtiMVr_lLOKaO63Cu0eqlT
+23:49:50.320731300 [INFO] - SessionID: UOAMpr0i0GTtiMVr_lLOKaO63Cu0eqlT assigned to User: marcos
+23:49:57.327052400 [INPUT] < UOAMpr0i0GTtiMVr_lLOKaO63Cu0eqlT rejectIssue I1 from: Socket[addr=/127.0.0.1,port=65139,localport=6666] >
+23:49:57.360201200 [INFO] User marcos rejected the issue: I1 at session UOAMpr0i0GTtiMVr_lLOKaO63Cu0eqlT
+23:51:45.221854300 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:51:45.223100900 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:51:45.566677900 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:51:45.569182400 [INFO] - Creating Listen Socket at port: 6666
+23:51:45.570181500 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:51:45.571177700 [WAITING FIRST CONNECTION] 
+23:51:53.737030800 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=65148,localport=6666]
+23:52:00.054047500 [INPUT] < -1 login marcos marcos from: Socket[addr=/127.0.0.1,port=65148,localport=6666] >
+23:52:00.057020100 [DEBUG] - User: marcos | Pass DB: marcos  | Pass Input:  marcos
+23:52:00.058448900 [INFO] - Login Success. User: marcos - SessionID : MCeov6hMsFrKStYmmi01l6ttld5K1KS0
+23:52:00.075581500 [INFO] - SessionID: MCeov6hMsFrKStYmmi01l6ttld5K1KS0 assigned to User: marcos
+23:52:28.392064900 [INPUT] < MCeov6hMsFrKStYmmi01l6ttld5K1KS0 rejectIssue I0 from: Socket[addr=/127.0.0.1,port=65148,localport=6666] >
+23:52:28.394062800 [INPUT] < MCeov6hMsFrKStYmmi01l6ttld5K1KS0  from: Socket[addr=/127.0.0.1,port=65148,localport=6666] >
+23:52:28.397849600java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+23:53:37.045541900 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:53:37.046268900 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:53:37.361549900 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:53:37.364542 [INFO] - Creating Listen Socket at port: 6666
+23:53:37.366536400 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:53:37.366675300 [WAITING FIRST CONNECTION] 
+23:53:48.203550600 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=65165,localport=6666]
+23:53:56.634731200 [INPUT] < -1 login marcos marcos from: Socket[addr=/127.0.0.1,port=65165,localport=6666] >
+23:53:56.637468400 [DEBUG] - User: marcos | Pass DB: marcos  | Pass Input:  marcos
+23:53:56.638032700 [INFO] - Login Success. User: marcos - SessionID : JY_MgGJ9ZwgYTc511lYv3uhjX5Tk27dZ
+23:53:56.663097100 [INFO] - SessionID: JY_MgGJ9ZwgYTc511lYv3uhjX5Tk27dZ assigned to User: marcos
+23:54:31.745233600 [INPUT] < JY_MgGJ9ZwgYTc511lYv3uhjX5Tk27dZ rejectIssue I1 from: Socket[addr=/127.0.0.1,port=65165,localport=6666] >
+23:54:31.781094400 [INFO] User marcos rejected the issue: I1 at session JY_MgGJ9ZwgYTc511lYv3uhjX5Tk27dZ

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane hgap="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" vgap="10.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myissuesinterface.IssuesController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="627.0" minWidth="10.0" prefWidth="182.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="545.0" minWidth="0.0" prefWidth="168.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="429.0" minWidth="5.0" prefWidth="32.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="572.0" minWidth="10.0" prefWidth="249.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="433.0" minWidth="10.0" prefWidth="410.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="123.0" minWidth="10.0" prefWidth="101.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="63.0" minHeight="10.0" prefHeight="58.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="29.333335876464844" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="52.0" minHeight="0.0" prefHeight="22.666656494140625" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="104.0" minHeight="10.0" prefHeight="77.33334350585938" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="89.0" minHeight="4.0" prefHeight="24.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="132.0" minHeight="10.0" prefHeight="118.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="81.0" minHeight="6.0" prefHeight="37.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="91.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="104.0" minHeight="7.0" prefHeight="7.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="105.0" minHeight="10.0" prefHeight="38.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="94.0" minHeight="10.0" prefHeight="44.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Issues" GridPane.columnSpan="2" GridPane.rowIndex="1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Label text="Update issue" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Label>
+      <TextField fx:id="WNAdd" promptText="Workspace name" GridPane.rowIndex="3" GridPane.valignment="TOP">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin></TextField>
+      <Button fx:id="AddIssue" mnemonicParsing="false" onAction="#handleButtonAddIssue" text="Add" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin></Button>
+      <Label text="Accept Issue" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="INAccept" promptText="Issue name" GridPane.rowIndex="7" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets bottom="35.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin></TextField>
+      <Button fx:id="RemoveIssue" mnemonicParsing="false" onAction="#handleButtonUpdateIssue" text="Update" GridPane.columnIndex="1" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin></Button>
+      <Button fx:id="SubmitWorkspace" mnemonicParsing="false" onAction="#handleButtonAcceptIssue" text="Accept" GridPane.columnIndex="1" GridPane.rowIndex="7" GridPane.valignment="CENTER">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <GridPane.margin>
+            <Insets bottom="35.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin></Button>
+      <Button fx:id="Home" mnemonicParsing="false" onAction="#handleButtonHome" text="Home" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.valignment="TOP" />
+      <TextField fx:id="INAdd" promptText="Issue name" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </TextField>
+      <Text fx:id="InfoWorkspace" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnSpan="2" GridPane.rowIndex="10" GridPane.valignment="TOP" />
+      <TextField fx:id="INRemove" prefHeight="31.0" prefWidth="134.0" promptText="Issue name" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </TextField>
+      <DatePicker fx:id="due" promptText="Due" GridPane.rowIndex="5" GridPane.valignment="TOP">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </DatePicker>
+      <Label text="Assign Issue" GridPane.rowIndex="8" GridPane.valignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="25.0" />
+         </GridPane.margin>
+      </Label>
+      <TextField fx:id="INAssign" promptText="Issue name" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets bottom="30.0" left="5.0" right="5.0" />
+         </GridPane.margin>
+      </TextField>
+      <Button fx:id="ListIssue" mnemonicParsing="false" onAction="#handleButtonListWorkspace" prefHeight="25.0" prefWidth="112.0" text="List Issues" GridPane.columnIndex="5" GridPane.rowIndex="4" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets bottom="20.0" left="5.0" right="10.0" top="5.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="SubmitWorkspace1" mnemonicParsing="false" onAction="#handleButtonAssign" text="Assign Issue" GridPane.columnIndex="1" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets left="5.0" right="5.0" top="50.0" />
+         </GridPane.margin>
+      </Button>
+      <Label text="Comment Issue" GridPane.columnIndex="3" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label text="Add Issue" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="INComment" promptText="Issue name" GridPane.columnIndex="3" GridPane.rowIndex="3" GridPane.valignment="TOP">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="CComment" promptText="Comment" GridPane.columnIndex="3" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </TextField>
+      <Button fx:id="AddWorkspace1" mnemonicParsing="false" onAction="#handleButtonComment" text="Comment" GridPane.columnIndex="4" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Button>
+      <Label text="Complete Issue" GridPane.columnIndex="3" GridPane.rowIndex="4">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="INComplete" promptText="Issue name" GridPane.columnIndex="3" GridPane.rowIndex="5" GridPane.valignment="TOP">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="Remove Issue" GridPane.columnIndex="3" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <GridPane.margin>
+            <Insets top="20.0" />
+         </GridPane.margin>
+      </Label>
+      <TextField fx:id="INRemoveIssue" promptText="Issue name" GridPane.columnIndex="3" GridPane.rowIndex="6">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets bottom="90.0" left="5.0" right="5.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="Reject Issue" GridPane.columnIndex="3" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin>
+      </Label>
+      <TextField fx:id="INRejectIssue" promptText="Issue name" GridPane.columnIndex="3" GridPane.rowIndex="7" GridPane.valignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets bottom="35.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="Propose Issue" GridPane.columnIndex="3" GridPane.rowIndex="8" GridPane.valignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="25.0" />
+         </GridPane.margin>
+      </Label>
+      <TextField fx:id="INProposeIssue" promptText="Issue name" GridPane.columnIndex="3" GridPane.rowIndex="9">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets bottom="30.0" left="5.0" right="5.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="Show Issue" GridPane.columnIndex="4" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="30.0" left="195.0" top="30.0" />
+         </GridPane.margin>
+      </Label>
+      <TextField fx:id="INShowIssue" prefHeight="31.0" prefWidth="324.0" promptText="Issue name" GridPane.columnIndex="4" GridPane.rowIndex="3" GridPane.valignment="TOP">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="200.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </TextField>
+      <Button fx:id="AddWorkspace11" mnemonicParsing="false" onAction="#handleButtonComplete" text="Compete" GridPane.columnIndex="4" GridPane.rowIndex="5" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="AddWorkspace12" mnemonicParsing="false" onAction="#handleButtonRemoveIssue" text="Remove" GridPane.columnIndex="4" GridPane.rowIndex="6">
+         <GridPane.margin>
+            <Insets bottom="90.0" left="5.0" right="5.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="AddWorkspace121" mnemonicParsing="false" onAction="#handleButtonReject" text="Reject" GridPane.columnIndex="4" GridPane.rowIndex="7" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets bottom="35.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="AddWorkspace122" mnemonicParsing="false" onAction="#handleButtonPropose" text="Propose" GridPane.columnIndex="4" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets bottom="30.0" left="5.0" right="5.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="AddWorkspace123" mnemonicParsing="false" onAction="#handleButtonShow" text="Show" GridPane.columnIndex="5" GridPane.rowIndex="3" GridPane.valignment="TOP">
+         <GridPane.margin>
+            <Insets bottom="20.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Button>
+      <ImageView fitHeight="66.0" fitWidth="66.0">
+         <image>
+            <Image url="@../../../img/Logo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="IssueShow" prefHeight="92.0" prefWidth="343.0" text="Label" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="10">
+         <GridPane.margin>
+            <Insets bottom="15.0" left="80.0" top="111.0" />
+         </GridPane.margin>
+      </Label>
+      <TextField fx:id="NewIssueName" prefHeight="31.0" prefWidth="134.0" promptText="New issue name" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="AssignTo" promptText="Assign to" GridPane.rowIndex="9">
+         <GridPane.margin>
+            <Insets left="5.0" right="5.0" top="50.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="IssueType" prefHeight="31.0" prefWidth="324.0" promptText="Issue type" GridPane.columnIndex="4" GridPane.rowIndex="4" GridPane.valignment="TOP">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="200.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="List Issues" GridPane.columnIndex="4" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="30.0" left="195.0" top="90.0" />
+         </GridPane.margin>
+      </Label>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="10.0" />
+   </padding>
+</GridPane>

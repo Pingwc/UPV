@@ -1,0 +1,16 @@
+18:43:06.496093800 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+18:43:06.497164600 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+18:43:06.819870300 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+18:43:06.824021 [INFO] - Creating Listen Socket at port: 6666
+18:43:06.829157800 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+18:43:06.831078100 [WAITING FIRST CONNECTION] 
+18:43:14.730914800 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=57113,localport=6666]
+18:44:13.387169200 [INPUT] < -1 help from: Socket[addr=/127.0.0.1,port=57113,localport=6666] >
+18:44:21.495704200 [INPUT] < -1 listWorkspaces from: Socket[addr=/127.0.0.1,port=57113,localport=6666] >
+18:44:21.500073 [ERROR] - Failed connecting with the DB: java.sql.SQLException: ResultSet closed
+18:44:21.501071200 [INFO] User Failed connecting with the DB reply for workspaces information at session -1
+18:50:11.766656400 [INPUT] < -1 addUser from: Socket[addr=/127.0.0.1,port=57113,localport=6666] >
+18:50:58.904973800 [INPUT] < -1 addUser macaco macaco yo@gmail.com macaco from: Socket[addr=/127.0.0.1,port=57113,localport=6666] >
+18:50:58.934488800 [ERROR] - Failed connecting with the DB: java.sql.SQLException: ResultSet closed
+18:50:58.935520200 [INFO] User Failed connecting with the DB at sesion -1 try to delete user: macaco. 
+18:51:29.357582400 [INPUT] < -1 removeUser macaco from: Socket[addr=/127.0.0.1,port=57113,localport=6666] >

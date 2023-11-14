@@ -1,0 +1,249 @@
+16:08:07.730620 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+16:10:18.502958900 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+16:27:59.407310700 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+16:27:59.450319100 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+16:27:59.986591700 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+16:27:59.987589100 [INFO] - Creating Listen Socket at port: 6666
+16:28:00.000592200 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+16:28:00.001593600 [WAITING NEW CONNECTION] 
+16:41:56.246317600 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+16:41:56.325748100 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+16:41:56.879411800 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+16:41:56.881412 [INFO] - Creating Listen Socket at port: 6666
+16:41:56.895416 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+16:41:56.897416 [WAITING NEW CONNECTION] 
+16:42:26.514422500 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=28584,localport=6666]
+18:17:22.685045200 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+18:17:22.729042300 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+18:17:25.025373900 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+18:17:25.025373900 [INFO] - Creating Listen Socket at port: 6666
+18:17:25.037352200 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+18:17:25.041357 [WAITING NEW CONNECTION] 
+18:17:28.340037200 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=1134,localport=6666]
+18:17:38.315862100 [INPUT] < listUsers from: Socket[addr=/127.0.0.1,port=1134,localport=6666] >
+18:17:45.422426500 [INPUT] < login user_name password from: Socket[addr=/127.0.0.1,port=1134,localport=6666] >
+18:17:45.426429500 [DEBUG] - User: user_name | Pass DB: password  | Pass Input:  password
+18:17:45.442457200 [INFO] - Login Success : user_name - Token : HGzMDYF7dXMbLXE_MFUJaPiCZvbFDO8f
+18:19:08.332734200java.net.SocketException: Connection reset
+18:20:52.825919600 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+18:20:52.861931900 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+18:20:53.377916100 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+18:20:53.381924300 [INFO] - Creating Listen Socket at port: 6666
+18:20:53.389915400 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+18:20:53.393920100 [WAITING NEW CONNECTION] 
+18:20:55.931073100 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=1156,localport=6666]
+18:21:03.877533 [INPUT] < login user_name password from: Socket[addr=/127.0.0.1,port=1156,localport=6666] >
+18:21:03.881534900 [DEBUG] - User: user_name | Pass DB: password  | Pass Input:  password
+18:21:03.897538200 [INFO] - Login Success : user_name - Token : YHUM0TTs37yjHS5XiS7YY9dZe4C7fXzN
+18:28:31.840732400java.net.SocketException: Connection reset
+18:28:42.951369 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+18:28:42.987357700 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+18:28:43.487946300 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+18:28:43.491947500 [INFO] - Creating Listen Socket at port: 6666
+18:28:43.503954100 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+18:28:43.503954100 [WAITING NEW CONNECTION] 
+18:28:47.391620400 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=1176,localport=6666]
+18:33:02.961084200 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+18:33:03.005097700 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+18:33:03.544398 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+18:33:03.544398 [INFO] - Creating Listen Socket at port: 6666
+18:33:03.556401100 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+18:33:03.560406100 [WAITING NEW CONNECTION] 
+18:33:30.135043900 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=1201,localport=6666]
+18:33:39.106062500 [INPUT] < login user_name password from: Socket[addr=/127.0.0.1,port=1201,localport=6666] >
+18:33:39.114045300 [DEBUG] - User: user_name | Pass DB: password  | Pass Input:  password
+18:33:39.126047700 [INFO] - Login Success. User: user_name - SessionID : xiXdY4RSHUlAYceyaIf8an6zYOOj16PF
+18:33:39.189126300 [INFO] - SessionID: xiXdY4RSHUlAYceyaIf8an6zYOOj16PF assigned to User: user_name
+18:59:25.424081200 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+18:59:25.468092900 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+18:59:26.026173600 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+18:59:26.030154500 [INFO] - Creating Listen Socket at port: 6666
+18:59:26.042157700 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+18:59:26.042157700 [WAITING NEW CONNECTION] 
+18:59:35.740790200 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=1243,localport=6666]
+18:59:51.866148200 [INPUT] <  login user_name password from: Socket[addr=/127.0.0.1,port=1243,localport=6666] >
+19:01:10.577942200 [INPUT] < login user_name password from: Socket[addr=/127.0.0.1,port=1243,localport=6666] >
+19:01:10.581917300 [DEBUG] - User: user_name | Pass DB: password  | Pass Input:  password
+19:01:10.597941700 [INFO] - Login Success. User: user_name - SessionID : yICfoFqFgbtI44XYytFc80bxqbdQKCZk
+19:01:10.644398700 [INFO] - SessionID: yICfoFqFgbtI44XYytFc80bxqbdQKCZk assigned to User: user_name
+19:33:22.160066200 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+19:33:22.200072900 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+19:33:22.687553800 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+19:33:22.687553800 [INFO] - Creating Listen Socket at port: 6666
+19:33:22.703558400 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+19:33:22.703558400 [WAITING NEW CONNECTION] 
+19:33:30.143770100 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=1295,localport=6666]
+19:33:55.035413300 [INPUT] < -1 login user_name password from: Socket[addr=/127.0.0.1,port=1295,localport=6666] >
+19:33:55.043892700 [DEBUG] - User: user_name | Pass DB: password  | Pass Input:  password
+19:33:55.055415 [INFO] - Login Success. User: user_name - SessionID : DO8lctRrHRzC6hp9KGfBMuQBE9ES5E_0
+19:33:55.102625100 [INFO] - SessionID: DO8lctRrHRzC6hp9KGfBMuQBE9ES5E_0 assigned to User: user_name
+19:34:01.541157800 [INPUT] < DO8lctRrHRzC6hp9KGfBMuQBE9ES5E_0 help from: Socket[addr=/127.0.0.1,port=1295,localport=6666] >
+19:34:36.490299800 [INPUT] < DO8lctRrHRzC6hp9KGfBMuQBE9ES5E_0 listUsers from: Socket[addr=/127.0.0.1,port=1295,localport=6666] >
+19:34:56.820968300 [INPUT] < DO8lctRrHRzC6hp9KGfBMuQBE9ES5E_0 removeUser manuel from: Socket[addr=/127.0.0.1,port=1295,localport=6666] >
+19:34:56.828970200 [ERROR] - Failed connecting with the DB 
+19:34:56.828970200 [INFO] User Failed connecting with the DB at sesion DO8lctRrHRzC6hp9KGfBMuQBE9ES5E_0try to delete user manuel. FORBIDDEN
+19:35:14.510291400 [INPUT] < DO8lctRrHRzC6hp9KGfBMuQBE9ES5E_0 removeUser user_name from: Socket[addr=/127.0.0.1,port=1295,localport=6666] >
+19:35:14.514268500 [ERROR] - Failed connecting with the DB 
+19:35:14.514268500 [INFO] User Failed connecting with the DB at sesion DO8lctRrHRzC6hp9KGfBMuQBE9ES5E_0try to delete user user_name. FORBIDDEN
+19:35:23.550480100 [INPUT] < DO8lctRrHRzC6hp9KGfBMuQBE9ES5E_0  from: Socket[addr=/127.0.0.1,port=1295,localport=6666] >
+19:35:23.554456200java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+19:44:37.487664900 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+19:44:37.527675700 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+19:44:38.096766600 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+19:44:38.100765 [INFO] - Creating Listen Socket at port: 6666
+19:44:38.112763200 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+19:44:38.112763200 [WAITING NEW CONNECTION] 
+19:44:47.136367600 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=1314,localport=6666]
+19:44:54.861366900 [INPUT] < -1 login user_name password from: Socket[addr=/127.0.0.1,port=1314,localport=6666] >
+19:44:54.865388600 [DEBUG] - User: user_name | Pass DB: password  | Pass Input:  password
+19:44:54.881375400 [INFO] - Login Success. User: user_name - SessionID : CI7Ve6ZBUeDgKCKX9klxwrAph6XnAPFF
+19:44:54.929508200 [INFO] - SessionID: CI7Ve6ZBUeDgKCKX9klxwrAph6XnAPFF assigned to User: user_name
+19:44:57.108966900 [INPUT] < CI7Ve6ZBUeDgKCKX9klxwrAph6XnAPFF removeUser user_name from: Socket[addr=/127.0.0.1,port=1314,localport=6666] >
+19:44:57.116969200 [ERROR] - Failed connecting with the DB: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: UserSession)
+19:44:57.116969200 [INFO] User Failed connecting with the DB at sesion CI7Ve6ZBUeDgKCKX9klxwrAph6XnAPFF try to delete user: user_name. 
+19:45:30.772210200 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+19:45:30.816249100 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+19:45:31.363705200 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+19:45:31.367705700 [INFO] - Creating Listen Socket at port: 6666
+19:45:31.379708400 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+19:45:31.379708400 [WAITING NEW CONNECTION] 
+19:45:39.067068700 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+19:45:39.107078600 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+19:45:39.587687800 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+19:45:39.591663200 [INFO] - Creating Listen Socket at port: 6666
+19:45:39.603666200 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+19:45:39.603666200 [WAITING NEW CONNECTION] 
+19:45:42.726757 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=1323,localport=6666]
+19:45:50.933166200 [INPUT] < -1 login user_name password from: Socket[addr=/127.0.0.1,port=1323,localport=6666] >
+19:45:50.941173400 [DEBUG] - User: user_name | Pass DB: password  | Pass Input:  password
+19:45:50.953171 [INFO] - Login Success. User: user_name - SessionID : 7GBa6HZ4Tu8iM2kl44fXMoYarkxNtNCZ
+19:45:51.000315800 [INFO] - SessionID: 7GBa6HZ4Tu8iM2kl44fXMoYarkxNtNCZ assigned to User: user_name
+19:45:52.373369300 [INPUT] < 7GBa6HZ4Tu8iM2kl44fXMoYarkxNtNCZ removeUser user_name from: Socket[addr=/127.0.0.1,port=1323,localport=6666] >
+19:45:52.381335500 [ERROR] - Failed connecting with the DB: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: UserSession.token)
+19:45:52.381335500 [INFO] User Failed connecting with the DB at sesion 7GBa6HZ4Tu8iM2kl44fXMoYarkxNtNCZ try to delete user: user_name. 
+19:47:16.555049200 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+19:47:16.595064300 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+19:47:17.120940300 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+19:47:17.124933500 [INFO] - Creating Listen Socket at port: 6666
+19:47:17.132919600 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+19:47:17.136954300 [WAITING NEW CONNECTION] 
+19:47:20.022304900 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=1332,localport=6666]
+19:47:28.371694900 [INPUT] < -1 login user_name password from: Socket[addr=/127.0.0.1,port=1332,localport=6666] >
+19:47:28.379693100 [DEBUG] - User: user_name | Pass DB: password  | Pass Input:  password
+19:47:28.391720700 [INFO] - Login Success. User: user_name - SessionID : fYT4-avLdip_dQf_ZpnjfHChBhaIMpZJ
+19:47:28.440213800 [INFO] - SessionID: fYT4-avLdip_dQf_ZpnjfHChBhaIMpZJ assigned to User: user_name
+19:47:33.874199500 [INPUT] < fYT4-avLdip_dQf_ZpnjfHChBhaIMpZJ remove user_name from: Socket[addr=/127.0.0.1,port=1332,localport=6666] >
+19:47:41.400895500 [INPUT] < fYT4-avLdip_dQf_ZpnjfHChBhaIMpZJ removeUser user_name from: Socket[addr=/127.0.0.1,port=1332,localport=6666] >
+19:47:41.447443800 [INFO] User user_name at sesion fYT4-avLdip_dQf_ZpnjfHChBhaIMpZJ: delete her Account 
+20:03:13.943890 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+20:03:13.983896300 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+20:03:14.532466900 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+20:03:14.532466900 [INFO] - Creating Listen Socket at port: 6666
+20:03:14.548471300 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+20:03:14.548471300 [WAITING NEW CONNECTION] 
+20:03:19.416534 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=1419,localport=6666]
+20:03:32.446346700 [INPUT] < -1 addUser user_name a a a from: Socket[addr=/127.0.0.1,port=1419,localport=6666] >
+20:03:32.507248500 [INFO] - New User Created: user_name
+20:03:37.476854500 [INPUT] < -1 login user_name a from: Socket[addr=/127.0.0.1,port=1419,localport=6666] >
+20:03:37.480855500 [DEBUG] - User: user_name | Pass DB: a  | Pass Input:  a
+20:03:37.484837700 [INFO] - Login Success. User: user_name - SessionID : TeVf0lLl7YXp4iLPsQGFZR7NpPjqxhx2
+20:03:37.547024300 [INFO] - SessionID: TeVf0lLl7YXp4iLPsQGFZR7NpPjqxhx2 assigned to User: user_name
+20:03:42.662538900 [INPUT] < TeVf0lLl7YXp4iLPsQGFZR7NpPjqxhx2 exit from: Socket[addr=/127.0.0.1,port=1419,localport=6666] >
+20:03:42.670518 [ERROR] - Failed connecting with the DB: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "user": syntax error)
+20:03:42.674521300java.net.SocketException: Socket closed
+20:05:28.639425400 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+20:05:28.679432700 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+20:05:29.196575900 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+20:05:29.196575900 [INFO] - Creating Listen Socket at port: 6666
+20:05:29.208600100 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+20:05:29.208600100 [WAITING NEW CONNECTION] 
+20:06:04.143474 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=1442,localport=6666]
+20:06:13.221254400 [INPUT] < -1 login user_name a from: Socket[addr=/127.0.0.1,port=1442,localport=6666] >
+20:06:13.225255500 [DEBUG] - User: user_name | Pass DB: a  | Pass Input:  a
+20:06:13.241260100 [INFO] - Login Success. User: user_name - SessionID : -GVN40WH5zZibRCYYEQbu2yhAomoOPkU
+20:06:13.287128500 [INFO] - SessionID: -GVN40WH5zZibRCYYEQbu2yhAomoOPkU assigned to User: user_name
+20:06:14.929326100 [INPUT] < -GVN40WH5zZibRCYYEQbu2yhAomoOPkU exit from: Socket[addr=/127.0.0.1,port=1442,localport=6666] >
+20:06:14.937126500 [ERROR] - Failed connecting with the DB: java.sql.SQLException: query does not return ResultSet
+20:06:14.941125100java.net.SocketException: Socket closed
+20:07:07.329698700 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+20:07:07.369708500 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+20:07:07.921784400 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+20:07:07.921784400 [INFO] - Creating Listen Socket at port: 6666
+20:07:07.933802100 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+20:07:07.933802100 [WAITING NEW CONNECTION] 
+20:07:10.901961700 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=1456,localport=6666]
+20:07:16.179950900 [INPUT] < -1 login user_name a from: Socket[addr=/127.0.0.1,port=1456,localport=6666] >
+20:07:16.183949900 [DEBUG] - User: user_name | Pass DB: a  | Pass Input:  a
+20:07:16.199957200 [INFO] - Login Success. User: user_name - SessionID : wIR-FLtvSpHyHdeb8I8zBSMXH3Z3OLsx
+20:07:16.262286400 [INFO] - SessionID: wIR-FLtvSpHyHdeb8I8zBSMXH3Z3OLsx assigned to User: user_name
+20:07:18.256061800 [INPUT] < wIR-FLtvSpHyHdeb8I8zBSMXH3Z3OLsx exit from: Socket[addr=/127.0.0.1,port=1456,localport=6666] >
+20:07:18.268089900 [ERROR] - Failed connecting with the DB: java.sql.SQLException: query does not return ResultSet
+20:07:18.272064900java.net.SocketException: Socket closed
+20:10:33.977887400 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+20:10:34.021894300 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+20:10:34.524983400 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+20:10:34.524983400 [INFO] - Creating Listen Socket at port: 6666
+20:10:34.540989100 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+20:10:34.540989100 [WAITING NEW CONNECTION] 
+20:10:39.494903900 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=1480,localport=6666]
+20:10:55.581187200 [INPUT] < -1 addUser test apellido gmail test from: Socket[addr=/127.0.0.1,port=1480,localport=6666] >
+20:10:55.642395600 [INFO] - New User Created: test
+20:10:59.651160200 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=1480,localport=6666] >
+20:10:59.651160200 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+20:10:59.655153200 [INFO] - Login Success. User: test - SessionID : HM5F9RhlVxJWqhgQIUFwFSQfuZ2rPNqM
+20:10:59.701055500 [INFO] - SessionID: HM5F9RhlVxJWqhgQIUFwFSQfuZ2rPNqM assigned to User: test
+20:11:04.569688200 [INPUT] < HM5F9RhlVxJWqhgQIUFwFSQfuZ2rPNqM exit from: Socket[addr=/127.0.0.1,port=1480,localport=6666] >
+20:11:04.619174200 [ERROR] - Failed connecting with the DB: java.sql.SQLException: query does not return ResultSet
+20:11:04.623171700java.net.SocketException: Socket closed
+20:12:20.532297800 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+20:12:20.572314600 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+20:12:21.110078900 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+20:12:21.110078900 [INFO] - Creating Listen Socket at port: 6666
+20:12:21.122076700 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+20:12:21.126080300 [WAITING NEW CONNECTION] 
+20:12:31.990103200 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=1490,localport=6666]
+20:14:36.421160900 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=1490,localport=6666] >
+20:14:36.429186500 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+20:14:36.441165200 [INFO] - Login Success. User: test - SessionID : IHHGK7X2XQlhm2DG-qd7_xNKHYO01vB6
+20:14:36.489390900 [INFO] - SessionID: IHHGK7X2XQlhm2DG-qd7_xNKHYO01vB6 assigned to User: test
+20:14:38.867797600 [INPUT] < IHHGK7X2XQlhm2DG-qd7_xNKHYO01vB6 exit from: Socket[addr=/127.0.0.1,port=1490,localport=6666] >
+20:14:38.917100200 [ERROR] - Failed connecting with the DB: java.sql.SQLException: query does not return ResultSet
+20:14:38.921101100java.io.EOFException
+20:33:06.324311900 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+20:33:06.360323300 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+20:33:06.972768800 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+20:33:06.972768800 [INFO] - Creating Listen Socket at port: 6666
+20:33:06.984746200 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+20:33:06.984746200 [WAITING NEW CONNECTION] 
+20:34:25.089352600 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=1544,localport=6666]
+20:34:30.725108800 [INPUT] < -1 exit from: Socket[addr=/127.0.0.1,port=1544,localport=6666] >
+20:34:30.741102200java.net.SocketException: Socket closed
+20:40:07.649279900 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+20:40:07.689290400 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+20:40:08.198172900 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+20:40:08.201782800 [INFO] - Creating Listen Socket at port: 6666
+20:40:08.213785400 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+20:40:08.213785400 [WAITING FIRST CONNECTION] 
+20:40:14.227007200 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=1033,localport=6666]
+20:40:20.011513400 [INPUT] < -1 exit from: Socket[addr=/127.0.0.1,port=1033,localport=6666] >
+20:40:20.028917600java.io.EOFException
+20:50:56.240917 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+20:50:56.280923800 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+20:50:56.823065900 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+20:50:56.827077 [INFO] - Creating Listen Socket at port: 6666
+20:50:56.839064800 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+20:50:56.839064800 [WAITING FIRST CONNECTION] 
+20:51:02.160867200 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=28120,localport=6666]
+20:59:59.170420800 [INPUT] < -1 help from: Socket[addr=/127.0.0.1,port=28120,localport=6666] >
+21:00:41.008065700 [INPUT] < -1 help from: Socket[addr=/127.0.0.1,port=28120,localport=6666] >
+21:01:38.713876600 [INPUT] < -1 exit from: Socket[addr=/127.0.0.1,port=28120,localport=6666] >
+21:01:38.713876600 [INFO] Sesion Socket[addr=/127.0.0.1,port=28120,localport=6666]closed
+21:01:38.717879java.net.SocketException: Socket closed
+21:02:06.886102200 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+21:02:06.930142700 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+21:02:07.467860900 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+21:02:07.471834800 [INFO] - Creating Listen Socket at port: 6666
+21:02:07.483838600 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+21:02:07.483838600 [WAITING FIRST CONNECTION] 
+21:02:11.234047900 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=13231,localport=6666]
+21:02:36.387957400 [INPUT] < -1 help from: Socket[addr=/127.0.0.1,port=13231,localport=6666] >

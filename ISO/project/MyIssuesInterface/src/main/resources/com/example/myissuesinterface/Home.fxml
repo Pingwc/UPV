@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" stylesheets="@myissuesStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myissuesinterface.HomeController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="270.0" minWidth="10.0" prefWidth="238.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="321.0" minWidth="10.0" prefWidth="181.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="436.0" minWidth="10.0" prefWidth="401.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="411.0" minWidth="0.0" prefWidth="408.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="256.0" minWidth="2.0" prefWidth="5.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="106.0" minHeight="0.0" prefHeight="74.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="106.0" minHeight="0.0" prefHeight="19.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="222.0" minHeight="10.0" prefHeight="145.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="250.0" minHeight="10.0" prefHeight="110.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="240.0" minHeight="10.0" prefHeight="158.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Home" wrappingWidth="150.13671875" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" right="5.0" />
+         </GridPane.margin>
+      </Text>
+      <Button id="logOutButton" fx:id="LogOut" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleButtonLogOut" prefHeight="31.0" prefWidth="91.0" text="Log Out" GridPane.columnIndex="3" GridPane.halignment="RIGHT">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+      </Button>
+      <GridPane GridPane.columnSpan="5" GridPane.rowIndex="2" GridPane.rowSpan="3">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="451.0" minWidth="10.0" prefWidth="451.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="399.0" minWidth="10.0" prefWidth="358.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="310.0" minWidth="10.0" prefWidth="286.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0" styleClass="borderPane" GridPane.columnSpan="2" GridPane.rowSpan="2">
+               <children>
+                  <Button fx:id="showUsers" layoutX="34.0" layoutY="167.0" mnemonicParsing="false" onAction="#handleButtonManageUsers" styleClass="manageButtons" text="Show Users" />
+                  <Text layoutX="14.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Here you can list the users in the system" wrappingWidth="149.99999668449163">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Users">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="124.0" fitWidth="137.0" layoutX="191.0" layoutY="20.0">
+                     <image>
+                        <Image url="@../../../img/users-icon.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="borderPane" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowSpan="2">
+               <children>
+                  <Button fx:id="ManageWorkspace" layoutX="30.0" layoutY="167.0" mnemonicParsing="false" onAction="#handleButtonManageWorkspace" styleClass="manageButtons" text="Manage Workspace" />
+                  <Text layoutX="18.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Here you can manage users in the system" wrappingWidth="149.99999668449163">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Workspace">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="143.0" fitWidth="150.0" layoutX="206.0" layoutY="29.0">
+                     <image>
+                        <Image url="@../../../img/workspace-icon.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="borderPane" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2" GridPane.rowSpan="2">
+               <children>
+                  <Button fx:id="ManageIssues" layoutX="36.0" layoutY="165.0" mnemonicParsing="false" onAction="#handleButtonManageIssues" styleClass="manageButtons" text="Manage Issues" />
+                  <Text layoutX="14.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Here you can manage Issues related to your user in the system" wrappingWidth="149.99999668449163">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Issues">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="124.0" fitWidth="117.0" layoutX="210.0" layoutY="38.0">
+                     <image>
+                        <Image url="@../../../img/manage-icon.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </GridPane>
+      <Separator prefWidth="200.0" GridPane.columnSpan="4" GridPane.rowIndex="1" />
+      <ImageView fitHeight="69.0" fitWidth="78.0">
+         <image>
+            <Image url="@../../../img/Logo.png" />
+         </image>
+      </ImageView>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" />
+   </padding>
+</GridPane>

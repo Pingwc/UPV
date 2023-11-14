@@ -1,0 +1,464 @@
+19:49:38.748338 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+19:49:38.749335700 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+19:49:39.138295500 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+19:49:39.140290 [INFO] - Creating Listen Socket at port: 6666
+19:49:39.141289 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+19:49:39.142286300 [WAITING FIRST CONNECTION] 
+19:49:41.965324500 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=61699,localport=6666]
+19:49:56.937682200 [INPUT] < -1 addIssue proba from: Socket[addr=/127.0.0.1,port=61699,localport=6666] >
+19:50:04.619310800 [INPUT] < -1 listUsers from: Socket[addr=/127.0.0.1,port=61699,localport=6666] >
+19:50:04.624296800 [ERROR] - Failed connecting with the DB: java.sql.SQLException: ResultSet closed
+19:50:04.624296800 [INFO] User Failed connecting with the DB reply for a list of all users at session -1
+19:50:38.592883 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=61699,localport=6666] >
+19:50:38.593880700 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+19:50:38.594878700 [INFO] - Login Success. User: test - SessionID : 9rhT9gMDtlNoB4hIv8-mPex-H0Tp8vfJ
+19:50:39.045743 [INFO] - SessionID: 9rhT9gMDtlNoB4hIv8-mPex-H0Tp8vfJ assigned to User: test
+19:50:49.509050100 [INPUT] < 9rhT9gMDtlNoB4hIv8-mPex-H0Tp8vfJ addIssue proba from: Socket[addr=/127.0.0.1,port=61699,localport=6666] >
+19:50:49.509932600 [ERROR] - Failed connecting with the DB: java.sql.SQLException: ResultSet closed
+19:50:49.510932600 [ERROR] - Failed connecting with the DB: java.sql.SQLException: ResultSet closed
+19:50:49.510932600 [INFO] User Failed connecting with the DB added the Issue: proba at session addIssue
+19:52:24.332406400 [INPUT] < 9rhT9gMDtlNoB4hIv8-mPex-H0Tp8vfJ exit from: Socket[addr=/127.0.0.1,port=61699,localport=6666] >
+19:52:24.333422400java.io.EOFException
+20:15:55.599976900 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+20:15:55.599976900 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+20:15:55.934082300 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+20:15:55.935080600 [INFO] - Creating Listen Socket at port: 6666
+20:15:55.936110300 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+20:15:55.936110300 [WAITING FIRST CONNECTION] 
+20:15:57.690393400 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=49176,localport=6666]
+20:16:12.565360900 [INPUT] < -1 listUsers from: Socket[addr=/127.0.0.1,port=49176,localport=6666] >
+20:16:12.568353 [ERROR] - Failed connecting with the DB: java.sql.SQLException: ResultSet closed
+20:16:12.569349600 [INFO] User Failed connecting with the DB reply for a list of all users at session -1
+20:16:18.716017 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=49176,localport=6666] >
+20:16:18.717015100 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+20:16:18.718012300 [INFO] - Login Success. User: test - SessionID : lnzdg3W2gOfF4SpzPiHGkOGuhVy8yucB
+20:16:18.861897200 [INFO] - SessionID: lnzdg3W2gOfF4SpzPiHGkOGuhVy8yucB assigned to User: test
+20:18:58.568112100 [INPUT] < lnzdg3W2gOfF4SpzPiHGkOGuhVy8yucB assignIssue coco I0 from: Socket[addr=/127.0.0.1,port=49176,localport=6666] >
+20:18:58.572074600 [INFO] User test assigned the issue: I0 ,to user: coco ,at session lnzdg3W2gOfF4SpzPiHGkOGuhVy8yucB
+20:19:35.088689300java.net.SocketException: Connection reset
+20:19:44.368851500 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+20:19:44.368851500 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+20:19:44.693982800 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+20:19:44.695976800 [INFO] - Creating Listen Socket at port: 6666
+20:19:44.696974300 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+20:19:44.696974300 [WAITING FIRST CONNECTION] 
+20:19:47.101231900 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=63937,localport=6666]
+20:19:56.570586700 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=63937,localport=6666] >
+20:19:56.571584300 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+20:19:56.572581600 [INFO] - Login Success. User: test - SessionID : ZgB5biK_0CJhB7S6Lg-DTy4RfEoDXUDG
+20:19:56.666431600 [INFO] - SessionID: ZgB5biK_0CJhB7S6Lg-DTy4RfEoDXUDG assigned to User: test
+20:20:07.272009500 [INPUT] < ZgB5biK_0CJhB7S6Lg-DTy4RfEoDXUDG assigIssue coco I0 from: Socket[addr=/127.0.0.1,port=63937,localport=6666] >
+20:20:18.359818700 [INPUT] < ZgB5biK_0CJhB7S6Lg-DTy4RfEoDXUDG assignIssue coco I0 from: Socket[addr=/127.0.0.1,port=63937,localport=6666] >
+20:20:18.363806900 [INFO] User test assigned the issue: I0 ,to user: coco ,at session ZgB5biK_0CJhB7S6Lg-DTy4RfEoDXUDG
+20:20:51.569182200java.net.SocketException: Connection reset
+20:20:55.045241300 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+20:20:55.046238400 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+20:20:55.366388300 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+20:20:55.368385 [INFO] - Creating Listen Socket at port: 6666
+20:20:55.370379900 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+20:20:55.370379900 [WAITING FIRST CONNECTION] 
+20:20:56.907283600 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=63953,localport=6666]
+20:21:04.022531400 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=63953,localport=6666] >
+20:21:04.024558700 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+20:21:04.025523400 [INFO] - Login Success. User: test - SessionID : dau92aMA6jGxqghpSVASfyhGoFD9S7rn
+20:21:04.123597500 [INFO] - SessionID: dau92aMA6jGxqghpSVASfyhGoFD9S7rn assigned to User: test
+20:21:13.812683200 [INPUT] < dau92aMA6jGxqghpSVASfyhGoFD9S7rn assignIssue coco I0 from: Socket[addr=/127.0.0.1,port=63953,localport=6666] >
+20:21:13.819628600 [INFO] User test assigned the issue: I0 ,to user: coco ,at session dau92aMA6jGxqghpSVASfyhGoFD9S7rn
+20:21:55.224253400 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+20:21:55.225251200 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+20:21:55.565947300 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+20:21:55.567942 [INFO] - Creating Listen Socket at port: 6666
+20:21:55.568937 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+20:21:55.569935 [WAITING FIRST CONNECTION] 
+20:22:00.836989500 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=63974,localport=6666]
+20:22:09.088501100 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=63974,localport=6666] >
+20:22:09.089498300 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+20:22:09.090530500 [INFO] - Login Success. User: test - SessionID : VRlEA9x0HOj6TNj4CsVGNdlWOxd-8jbU
+20:22:09.181465 [INFO] - SessionID: VRlEA9x0HOj6TNj4CsVGNdlWOxd-8jbU assigned to User: test
+20:22:34.048467100 [INPUT] < VRlEA9x0HOj6TNj4CsVGNdlWOxd-8jbU assignIssue coco I0 from: Socket[addr=/127.0.0.1,port=63974,localport=6666] >
+20:22:34.052454 [INFO] User test assigned the issue: I0 ,to user: coco ,at session VRlEA9x0HOj6TNj4CsVGNdlWOxd-8jbU
+20:23:06.309047400 [INPUT] < VRlEA9x0HOj6TNj4CsVGNdlWOxd-8jbU assignIssue coco I0 from: Socket[addr=/127.0.0.1,port=63974,localport=6666] >
+20:23:06.309047400 [INFO] User test assigned the issue: I0 ,to user: coco ,at session VRlEA9x0HOj6TNj4CsVGNdlWOxd-8jbU
+22:28:21.088477600 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+22:28:21.089475 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+22:28:21.442531 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+22:28:21.443527700 [INFO] - Creating Listen Socket at port: 6666
+22:28:21.444526100 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+22:28:21.445523300 [WAITING FIRST CONNECTION] 
+22:28:23.068150300 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=51699,localport=6666]
+22:28:50.428235400 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=51699,localport=6666] >
+22:28:50.430263 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+22:28:50.431228100 [INFO] - Login Success. User: test - SessionID : douJ2vqrGqLhrKVYtnKtMWRw_eRwqebX
+22:28:50.527043100 [INFO] - SessionID: douJ2vqrGqLhrKVYtnKtMWRw_eRwqebX assigned to User: test
+22:29:35.187875300 [INPUT] < douJ2vqrGqLhrKVYtnKtMWRw_eRwqebX addIssue testIssue ws1 from: Socket[addr=/127.0.0.1,port=51699,localport=6666] >
+22:30:23.700578300 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+22:30:23.700578300 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+22:30:24.013740 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+22:30:24.014737700 [INFO] - Creating Listen Socket at port: 6666
+22:30:24.015734900 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+22:30:24.016732400 [WAITING FIRST CONNECTION] 
+22:30:30.933322500 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=51715,localport=6666]
+22:30:37.101797800 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=51715,localport=6666] >
+22:30:37.103761300 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+22:30:37.103761300 [INFO] - Login Success. User: test - SessionID : 7z5VP1fZ3FgQTcQiSPrdL8vehFIcZoo2
+22:30:37.198527800 [INFO] - SessionID: 7z5VP1fZ3FgQTcQiSPrdL8vehFIcZoo2 assigned to User: test
+22:30:51.340090100 [INPUT] < 7z5VP1fZ3FgQTcQiSPrdL8vehFIcZoo2 adIssue testIssue ws1 from: Socket[addr=/127.0.0.1,port=51715,localport=6666] >
+22:31:04.757565 [INPUT] < 7z5VP1fZ3FgQTcQiSPrdL8vehFIcZoo2 addIssue testIssue ws1 from: Socket[addr=/127.0.0.1,port=51715,localport=6666] >
+22:31:42.533249300 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+22:31:42.534247300 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+22:31:42.846411700 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+22:31:42.848406600 [INFO] - Creating Listen Socket at port: 6666
+22:31:42.849405100 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+22:31:42.849405100 [WAITING FIRST CONNECTION] 
+22:31:44.015954400 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=51730,localport=6666]
+22:31:51.885012500 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=51730,localport=6666] >
+22:31:51.886009500 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+22:31:51.887007500 [INFO] - Login Success. User: test - SessionID : Trt_oASDTuPM1-HMnByBAatuxS-PN9Pa
+22:31:51.978689100 [INFO] - SessionID: Trt_oASDTuPM1-HMnByBAatuxS-PN9Pa assigned to User: test
+22:32:15.705515700 [INPUT] < Trt_oASDTuPM1-HMnByBAatuxS-PN9Pa addIssue testIssue ws1 from: Socket[addr=/127.0.0.1,port=51730,localport=6666] >
+22:35:08.108904100java.net.SocketException: Connection reset
+22:35:11.946687200 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+22:35:11.947674700 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+22:35:12.276322200 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+22:35:12.277319500 [INFO] - Creating Listen Socket at port: 6666
+22:35:12.279314600 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+22:35:12.279314600 [WAITING FIRST CONNECTION] 
+22:35:13.365240500 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=51751,localport=6666]
+22:35:20.737277700 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=51751,localport=6666] >
+22:35:20.738275300 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+22:35:20.739273400 [INFO] - Login Success. User: test - SessionID : 7wMWTssJ7tq3zOpwGXK3ddLKlHyv4V5l
+22:35:20.835884500 [INFO] - SessionID: 7wMWTssJ7tq3zOpwGXK3ddLKlHyv4V5l assigned to User: test
+22:35:29.410633700 [INPUT] < 7wMWTssJ7tq3zOpwGXK3ddLKlHyv4V5l addIssue testIssue ws1 from: Socket[addr=/127.0.0.1,port=51751,localport=6666] >
+22:35:29.414647200 [INFO] User test added the Issue: testIssue at session 7wMWTssJ7tq3zOpwGXK3ddLKlHyv4V5l
+22:36:52.700615600java.net.SocketException: Connection reset
+22:36:58.828967800 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+22:36:58.829963600 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+22:36:59.147000100 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+22:36:59.148994700 [INFO] - Creating Listen Socket at port: 6666
+22:36:59.149992900 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+22:36:59.150990700 [WAITING FIRST CONNECTION] 
+22:37:01.410628 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=60329,localport=6666]
+22:37:06.059079500 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=60329,localport=6666] >
+22:37:06.061062700 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+22:37:06.061062700 [INFO] - Login Success. User: test - SessionID : wLtnW37PjxMYWp8QJtRTVqkfNcxXY6ub
+22:37:06.149845300 [INFO] - SessionID: wLtnW37PjxMYWp8QJtRTVqkfNcxXY6ub assigned to User: test
+22:37:22.032598200 [INPUT] < wLtnW37PjxMYWp8QJtRTVqkfNcxXY6ub addIssue testIssue ws1 from: Socket[addr=/127.0.0.1,port=60329,localport=6666] >
+22:37:22.035620400 [INFO] User test added the Issue: testIssue at session wLtnW37PjxMYWp8QJtRTVqkfNcxXY6ub
+22:38:19.124300500 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+22:38:19.125298500 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+22:38:19.428485500 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+22:38:19.430480200 [INFO] - Creating Listen Socket at port: 6666
+22:38:19.431478100 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+22:38:19.431478100 [WAITING FIRST CONNECTION] 
+22:38:22.633424900 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=60342,localport=6666]
+22:38:28.884009600 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=60342,localport=6666] >
+22:38:28.886004500 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+22:38:28.887001700 [INFO] - Login Success. User: test - SessionID : wOlffnhGtQJaBOJO0v9ixSrZijfbnQ_-
+22:38:28.980879300 [INFO] - SessionID: wOlffnhGtQJaBOJO0v9ixSrZijfbnQ_- assigned to User: test
+22:38:40.827326300 [INPUT] < wOlffnhGtQJaBOJO0v9ixSrZijfbnQ_- addIssue testIssue ws1 from: Socket[addr=/127.0.0.1,port=60342,localport=6666] >
+22:38:40.830333100 [INFO] User test added the Issue: testIssue at session wOlffnhGtQJaBOJO0v9ixSrZijfbnQ_-
+22:41:04.518096 [INPUT] < wOlffnhGtQJaBOJO0v9ixSrZijfbnQ_- addIssue test2 ws1 from: Socket[addr=/127.0.0.1,port=60342,localport=6666] >
+22:41:04.520093800 [INFO] User test added the Issue: test2 at session wOlffnhGtQJaBOJO0v9ixSrZijfbnQ_-
+22:42:40.483707700 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+22:42:40.484738800 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+22:42:40.901185700 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+22:42:40.903182 [INFO] - Creating Listen Socket at port: 6666
+22:42:40.904180900 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+22:42:40.904180900 [WAITING FIRST CONNECTION] 
+22:42:46.136125300 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=60372,localport=6666]
+22:43:04.963649800 [INPUT] < -1 addIssue test ws1 from: Socket[addr=/127.0.0.1,port=60372,localport=6666] >
+22:43:15.847376600 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=60372,localport=6666] >
+22:43:15.850369200 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+22:43:15.851366300 [INFO] - Login Success. User: test - SessionID : 6CkW3x3s6vLrTDdrmAJ9scVhQB6XrQYf
+22:43:15.938027600 [INFO] - SessionID: 6CkW3x3s6vLrTDdrmAJ9scVhQB6XrQYf assigned to User: test
+22:43:27.752840100 [INPUT] < 6CkW3x3s6vLrTDdrmAJ9scVhQB6XrQYf addIssue test0 ws1 from: Socket[addr=/127.0.0.1,port=60372,localport=6666] >
+22:43:27.756833600 [INFO] User test added the Issue: test0 at session 6CkW3x3s6vLrTDdrmAJ9scVhQB6XrQYf
+22:47:13.520476800java.net.SocketException: Connection reset
+22:47:18.736127900 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+22:47:18.737125500 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+22:47:19.187566200 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+22:47:19.189556100 [INFO] - Creating Listen Socket at port: 6666
+22:47:19.190579 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+22:47:19.191551700 [WAITING FIRST CONNECTION] 
+22:47:21.665876 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=52126,localport=6666]
+22:47:27.577320600 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=52126,localport=6666] >
+22:47:27.579313500 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+22:47:27.580309400 [INFO] - Login Success. User: test - SessionID : RgJrx2W7OTooI_o8am5rcrlgJ59_bndR
+22:47:27.670339300 [INFO] - SessionID: RgJrx2W7OTooI_o8am5rcrlgJ59_bndR assigned to User: test
+22:47:35.625217400 [INPUT] < RgJrx2W7OTooI_o8am5rcrlgJ59_bndR addIssue test0 ws1 from: Socket[addr=/127.0.0.1,port=52126,localport=6666] >
+22:47:35.628211200 [INFO] User test added the Issue: test0 at session RgJrx2W7OTooI_o8am5rcrlgJ59_bndR
+22:48:22.602779200java.net.SocketException: Connection reset
+22:48:26.701496100 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+22:48:26.702492900 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+22:48:27.098963200 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+22:48:27.102949 [INFO] - Creating Listen Socket at port: 6666
+22:48:27.104946500 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+22:48:27.105944200 [WAITING FIRST CONNECTION] 
+22:48:28.420398300 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=52141,localport=6666]
+22:48:38.261069400 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=52141,localport=6666] >
+22:48:38.263065900 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+22:48:38.264062600 [INFO] - Login Success. User: test - SessionID : Ndj_M5KljXEpaoPkjU2uj-vVmQ6e5grg
+22:48:38.361859400 [INFO] - SessionID: Ndj_M5KljXEpaoPkjU2uj-vVmQ6e5grg assigned to User: test
+22:48:47.434968600 [INPUT] < Ndj_M5KljXEpaoPkjU2uj-vVmQ6e5grg addIssue test0 ws1 from: Socket[addr=/127.0.0.1,port=52141,localport=6666] >
+22:48:47.439955 [INFO] User test added the Issue: test0 at session Ndj_M5KljXEpaoPkjU2uj-vVmQ6e5grg
+22:52:27.261068500java.net.SocketException: Connection reset
+22:52:32.933424300 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+22:52:32.934422400 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+22:52:33.362629300 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+22:52:33.365622200 [INFO] - Creating Listen Socket at port: 6666
+22:52:33.367616 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+22:52:33.367616 [WAITING FIRST CONNECTION] 
+22:52:34.570679700 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=52164,localport=6666]
+22:52:40.994937100 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=52164,localport=6666] >
+22:52:40.996896600 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+22:52:40.997925900 [INFO] - Login Success. User: test - SessionID : ly_CFvVwM999ppEH8W2h-Yne8O_UJZ1g
+22:52:41.095432500 [INFO] - SessionID: ly_CFvVwM999ppEH8W2h-Yne8O_UJZ1g assigned to User: test
+22:52:48.851804200 [INPUT] < ly_CFvVwM999ppEH8W2h-Yne8O_UJZ1g addIssue test0 ws1 from: Socket[addr=/127.0.0.1,port=52164,localport=6666] >
+22:52:48.855792500 [INFO] User test added the Issue: test0 at session ly_CFvVwM999ppEH8W2h-Yne8O_UJZ1g
+22:53:37.201613 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+22:53:37.202610200 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+22:53:37.603471400 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+22:53:37.605466 [INFO] - Creating Listen Socket at port: 6666
+22:53:37.607460800 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+22:53:37.607460800 [WAITING FIRST CONNECTION] 
+22:53:40.177627500 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=52178,localport=6666]
+22:53:50.148764500 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=52178,localport=6666] >
+22:53:50.150793300 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+22:53:50.151756900 [INFO] - Login Success. User: test - SessionID : UlJ_xSU5axGU4w0eqY1U6GYWEgdv6WkK
+22:53:50.253081700 [INFO] - SessionID: UlJ_xSU5axGU4w0eqY1U6GYWEgdv6WkK assigned to User: test
+22:54:03.864215500 [INPUT] < UlJ_xSU5axGU4w0eqY1U6GYWEgdv6WkK addIssue test00 ws1 from: Socket[addr=/127.0.0.1,port=52178,localport=6666] >
+22:54:03.867207400 [INFO] User test added the Issue: test00 at session UlJ_xSU5axGU4w0eqY1U6GYWEgdv6WkK
+22:55:43.799063java.net.SocketException: Connection reset
+22:55:49.975784400 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+22:55:49.975784400 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+22:55:50.404058200 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+22:55:50.407050 [INFO] - Creating Listen Socket at port: 6666
+22:55:50.408048700 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+22:55:50.409049 [WAITING FIRST CONNECTION] 
+22:55:53.989880 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=52200,localport=6666]
+22:55:59.377258 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=52200,localport=6666] >
+22:55:59.379370500 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+22:55:59.380323400 [INFO] - Login Success. User: test - SessionID : UtOgkzVtL9KMbd_dlAIrBEeEPDS1GV6f
+22:55:59.485517300 [INFO] - SessionID: UtOgkzVtL9KMbd_dlAIrBEeEPDS1GV6f assigned to User: test
+22:56:12.916617600 [INPUT] < UtOgkzVtL9KMbd_dlAIrBEeEPDS1GV6f addIssue test00 ws1 from: Socket[addr=/127.0.0.1,port=52200,localport=6666] >
+22:56:12.920572900 [INFO] User test added the Issue: test00 at session UtOgkzVtL9KMbd_dlAIrBEeEPDS1GV6f
+22:57:42.180000600java.net.SocketException: Connection reset
+22:57:47.014623800 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+22:57:47.015621400 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+22:57:47.398439600 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+22:57:47.400435100 [INFO] - Creating Listen Socket at port: 6666
+22:57:47.401432100 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+22:57:47.402430300 [WAITING FIRST CONNECTION] 
+22:57:48.738580500 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=61589,localport=6666]
+22:57:54.714671500 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=61589,localport=6666] >
+22:57:54.716699600 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+22:57:54.717663200 [INFO] - Login Success. User: test - SessionID : C1rlzjMJIY88UPfkGdBLwU7sgTM64y17
+22:57:54.813517100 [INFO] - SessionID: C1rlzjMJIY88UPfkGdBLwU7sgTM64y17 assigned to User: test
+22:58:06.924254900 [INPUT] < C1rlzjMJIY88UPfkGdBLwU7sgTM64y17 addIssue test00 ws1 from: Socket[addr=/127.0.0.1,port=61589,localport=6666] >
+22:58:06.928241600 [INFO] User test added the Issue: test00 at session C1rlzjMJIY88UPfkGdBLwU7sgTM64y17
+22:58:36.490121java.net.SocketException: Connection reset
+22:58:40.014356200 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+22:58:40.015354400 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+22:58:40.433234900 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+22:58:40.434231200 [INFO] - Creating Listen Socket at port: 6666
+22:58:40.436226200 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+22:58:40.436226200 [WAITING FIRST CONNECTION] 
+22:58:41.628972500 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+22:58:41.628972500 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+22:58:42.219903800 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+22:58:42.221899 [INFO] - Creating Listen Socket at port: 6666
+22:58:42.222895500 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+22:58:42.222895500 [WAITING FIRST CONNECTION] 
+22:58:44.362189100 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=61607,localport=6666]
+22:58:48.456397400 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=61607,localport=6666] >
+22:58:48.458424 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+22:58:48.459388400 [INFO] - Login Success. User: test - SessionID : _nGxVoI-WPPFaZ8CcxkpaaahA5Myi6IB
+22:58:48.559135600 [INFO] - SessionID: _nGxVoI-WPPFaZ8CcxkpaaahA5Myi6IB assigned to User: test
+22:59:00.254738500 [INPUT] < _nGxVoI-WPPFaZ8CcxkpaaahA5Myi6IB addIssue test00 ws1 from: Socket[addr=/127.0.0.1,port=61607,localport=6666] >
+22:59:00.257730800 [INFO] User test added the Issue: test00 at session _nGxVoI-WPPFaZ8CcxkpaaahA5Myi6IB
+23:00:02.729216700 [INPUT] < _nGxVoI-WPPFaZ8CcxkpaaahA5Myi6IB addIssue test00 ws1 from: Socket[addr=/127.0.0.1,port=61607,localport=6666] >
+23:00:02.730215400 [INFO] User test added the Issue: test00 at session _nGxVoI-WPPFaZ8CcxkpaaahA5Myi6IB
+23:00:15.672901700java.net.SocketException: Connection reset
+23:00:19.463394600 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:00:19.464390500 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:00:19.912254100 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:00:19.915211100 [INFO] - Creating Listen Socket at port: 6666
+23:00:19.916208500 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:00:19.916208500 [WAITING FIRST CONNECTION] 
+23:00:21.992777600 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=61623,localport=6666]
+23:00:29.177462600 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=61623,localport=6666] >
+23:00:29.179457 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+23:00:29.179457 [INFO] - Login Success. User: test - SessionID : m_hqzhhTn3IPEtiUcPmVJ9mXDl4qnrY2
+23:00:29.274523400 [INFO] - SessionID: m_hqzhhTn3IPEtiUcPmVJ9mXDl4qnrY2 assigned to User: test
+23:00:39.518356100 [INPUT] < m_hqzhhTn3IPEtiUcPmVJ9mXDl4qnrY2 addIssue test00 ws1 from: Socket[addr=/127.0.0.1,port=61623,localport=6666] >
+23:00:39.523342400 [INFO] User test added the Issue: test00 at session m_hqzhhTn3IPEtiUcPmVJ9mXDl4qnrY2
+23:01:18.033173600 [INPUT] < m_hqzhhTn3IPEtiUcPmVJ9mXDl4qnrY2 addIssue test ws1 from: Socket[addr=/127.0.0.1,port=61623,localport=6666] >
+23:01:18.034170200 [INFO] User test added the Issue: test at session m_hqzhhTn3IPEtiUcPmVJ9mXDl4qnrY2
+23:02:06.771771java.net.SocketException: Connection reset
+23:02:13.329589200 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:02:13.330587 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:02:13.799344 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:02:13.802337700 [INFO] - Creating Listen Socket at port: 6666
+23:02:13.803334700 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:02:13.803334700 [WAITING FIRST CONNECTION] 
+23:02:15.334480400 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=61646,localport=6666]
+23:02:21.907743300 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=61646,localport=6666] >
+23:02:21.909704300 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+23:02:21.911730700 [INFO] - Login Success. User: test - SessionID : Gka18mxiORnCPavLLkTP4qfpoPPhK5Zy
+23:02:22.010502100 [INFO] - SessionID: Gka18mxiORnCPavLLkTP4qfpoPPhK5Zy assigned to User: test
+23:02:33.952798500 [INPUT] < Gka18mxiORnCPavLLkTP4qfpoPPhK5Zy addIssue test2 ws1 from: Socket[addr=/127.0.0.1,port=61646,localport=6666] >
+23:02:33.955790300 [INFO] User test added the Issue: test2 at session Gka18mxiORnCPavLLkTP4qfpoPPhK5Zy
+23:02:57.714412600 [INPUT] < Gka18mxiORnCPavLLkTP4qfpoPPhK5Zy addIssue testError ws3 from: Socket[addr=/127.0.0.1,port=61646,localport=6666] >
+23:05:32.622862600java.net.SocketException: Connection reset
+23:05:38.413510500 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:05:38.414508200 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:05:38.800475 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:05:38.801497400 [INFO] - Creating Listen Socket at port: 6666
+23:05:38.803466500 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:05:38.803466500 [WAITING FIRST CONNECTION] 
+23:05:40.089277800 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=61705,localport=6666]
+23:05:46.969882900 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=61705,localport=6666] >
+23:05:46.971912600 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+23:05:46.972876700 [INFO] - Login Success. User: test - SessionID : 39hbXIFhFKeuZaifBkyAYvahi1kIpsUb
+23:05:47.067887700 [INFO] - SessionID: 39hbXIFhFKeuZaifBkyAYvahi1kIpsUb assigned to User: test
+23:06:04.184875700 [INPUT] < 39hbXIFhFKeuZaifBkyAYvahi1kIpsUb addIsseu test2 ws3 from: Socket[addr=/127.0.0.1,port=61705,localport=6666] >
+23:06:14.597410300 [INPUT] < 39hbXIFhFKeuZaifBkyAYvahi1kIpsUb addIssue test2 ws4 from: Socket[addr=/127.0.0.1,port=61705,localport=6666] >
+23:06:26.571172800 [INPUT] < 39hbXIFhFKeuZaifBkyAYvahi1kIpsUb addIssue test2 ws1 from: Socket[addr=/127.0.0.1,port=61705,localport=6666] >
+23:06:26.572171300 [INFO] User test added the Issue: test2 at session 39hbXIFhFKeuZaifBkyAYvahi1kIpsUb
+23:07:10.007763900 [INPUT] < 39hbXIFhFKeuZaifBkyAYvahi1kIpsUb help from: Socket[addr=/127.0.0.1,port=61705,localport=6666] >
+23:08:45.288271800java.net.SocketException: Connection reset
+23:25:29.303700 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:25:29.304699800 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:25:29.718659500 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:25:29.719656900 [INFO] - Creating Listen Socket at port: 6666
+23:25:29.721652400 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:25:29.721652400 [WAITING FIRST CONNECTION] 
+23:25:33.998074800 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=54398,localport=6666]
+23:25:42.433355 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=54398,localport=6666] >
+23:25:42.435313600 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+23:25:42.437310400 [INFO] - Login Success. User: test - SessionID : TD0dIsc-JwHFrK0FfMbO7OgQ2_aQPeMV
+23:25:42.578124400 [INFO] - SessionID: TD0dIsc-JwHFrK0FfMbO7OgQ2_aQPeMV assigned to User: test
+23:26:06.557582800 [INPUT] < TD0dIsc-JwHFrK0FfMbO7OgQ2_aQPeMV assignIssue I0 test from: Socket[addr=/127.0.0.1,port=54398,localport=6666] >
+23:26:42.987527600java.net.SocketException: Connection reset
+23:26:47.923136100 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:26:47.923136100 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:26:48.338026900 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:26:48.340021200 [INFO] - Creating Listen Socket at port: 6666
+23:26:48.342015500 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:26:48.342015500 [WAITING FIRST CONNECTION] 
+23:26:49.707625600 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=57600,localport=6666]
+23:26:55.467276800 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=57600,localport=6666] >
+23:26:55.469272500 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+23:26:55.470301800 [INFO] - Login Success. User: test - SessionID : qBDg6tvcQ_zgEyTCDJsJMeqCLiwYNhpa
+23:26:55.569564500 [INFO] - SessionID: qBDg6tvcQ_zgEyTCDJsJMeqCLiwYNhpa assigned to User: test
+23:27:07.749466 [INPUT] < qBDg6tvcQ_zgEyTCDJsJMeqCLiwYNhpa assignIssue I0 test from: Socket[addr=/127.0.0.1,port=57600,localport=6666] >
+23:28:13.475762500java.net.SocketException: Connection reset
+23:28:18.636638300 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:28:18.637637500 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:28:19.103529100 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:28:19.105523 [INFO] - Creating Listen Socket at port: 6666
+23:28:19.107518100 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:28:19.107518100 [WAITING FIRST CONNECTION] 
+23:28:20.723216 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=57614,localport=6666]
+23:28:25.155130100 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=57614,localport=6666] >
+23:28:25.158122800 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+23:28:25.159119200 [INFO] - Login Success. User: test - SessionID : a1DqTYPnEW_eldFPVRptRC40_PGw6Sq5
+23:28:25.260089700 [INFO] - SessionID: a1DqTYPnEW_eldFPVRptRC40_PGw6Sq5 assigned to User: test
+23:28:37.791684100 [INPUT] < a1DqTYPnEW_eldFPVRptRC40_PGw6Sq5 assignIssue I0 test from: Socket[addr=/127.0.0.1,port=57614,localport=6666] >
+23:28:57.271349800java.net.SocketException: Connection reset
+23:29:02.365220600 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:29:02.366217800 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:29:02.825989700 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:29:02.827983200 [INFO] - Creating Listen Socket at port: 6666
+23:29:02.828981700 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:29:02.828981700 [WAITING FIRST CONNECTION] 
+23:29:04.715522200 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=57626,localport=6666]
+23:29:09.875138600 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=57626,localport=6666] >
+23:29:09.877133900 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+23:29:09.878130800 [INFO] - Login Success. User: test - SessionID : Bwd98W7GWrzYnTZ0pO8BnpRPzwXHeUL_
+23:29:09.972605600 [INFO] - SessionID: Bwd98W7GWrzYnTZ0pO8BnpRPzwXHeUL_ assigned to User: test
+23:29:19.688231500 [INPUT] < Bwd98W7GWrzYnTZ0pO8BnpRPzwXHeUL_ assignIssue I0 test from: Socket[addr=/127.0.0.1,port=57626,localport=6666] >
+23:30:43.468762200java.net.SocketException: Connection reset
+23:30:49.386677100 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:30:49.387678100 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:30:49.832004100 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:30:49.833002400 [INFO] - Creating Listen Socket at port: 6666
+23:30:49.834994700 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:30:49.834994700 [WAITING FIRST CONNECTION] 
+23:30:51.219821500 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=57638,localport=6666]
+23:30:58.713243300 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=57638,localport=6666] >
+23:30:58.714305200 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+23:30:58.715234600 [INFO] - Login Success. User: test - SessionID : Nw3-gOoDlz7of97qRn4CpTGylq7UsGjx
+23:30:58.812386700 [INFO] - SessionID: Nw3-gOoDlz7of97qRn4CpTGylq7UsGjx assigned to User: test
+23:31:08.338211200 [INPUT] < Nw3-gOoDlz7of97qRn4CpTGylq7UsGjx assignIssue I0 test from: Socket[addr=/127.0.0.1,port=57638,localport=6666] >
+23:33:29.373012700java.net.SocketException: Connection reset
+23:33:34.893587100 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:33:34.894584800 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:33:35.310572400 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:33:35.312567400 [INFO] - Creating Listen Socket at port: 6666
+23:33:35.313565100 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:33:35.314562300 [WAITING FIRST CONNECTION] 
+23:33:36.836273 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=54248,localport=6666]
+23:33:44.838168200 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=54248,localport=6666] >
+23:33:44.840162100 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+23:33:44.842186900 [INFO] - Login Success. User: test - SessionID : dPkaPJTlVkyCbo6I2x6L0w52Fw24ol9V
+23:33:44.938058400 [INFO] - SessionID: dPkaPJTlVkyCbo6I2x6L0w52Fw24ol9V assigned to User: test
+23:33:55.603100300 [INPUT] < dPkaPJTlVkyCbo6I2x6L0w52Fw24ol9V assignIssue I0 test from: Socket[addr=/127.0.0.1,port=54248,localport=6666] >
+23:36:25.570237300java.net.SocketException: Connection reset
+23:36:30.833218500 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:36:30.834214500 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:36:31.277029800 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:36:31.279024600 [INFO] - Creating Listen Socket at port: 6666
+23:36:31.281020400 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:36:31.281020400 [WAITING FIRST CONNECTION] 
+23:36:32.735505 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=59072,localport=6666]
+23:36:42.025795800 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=59072,localport=6666] >
+23:36:42.027793800 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+23:36:42.028787900 [INFO] - Login Success. User: test - SessionID : 0lObW3jWj5ZkK_Fey8MJk0TBazv7bwut
+23:36:42.145417600 [INFO] - SessionID: 0lObW3jWj5ZkK_Fey8MJk0TBazv7bwut assigned to User: test
+23:36:49.023604100 [INPUT] < 0lObW3jWj5ZkK_Fey8MJk0TBazv7bwut assignIssue I0 test from: Socket[addr=/127.0.0.1,port=59072,localport=6666] >
+23:36:49.031581500 [INFO] User test assigned the issue: I0 to User: test at session 0lObW3jWj5ZkK_Fey8MJk0TBazv7bwut
+23:39:27.327857700java.net.SocketException: Connection reset
+23:39:33.209367500 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:39:33.210363900 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:39:33.602898500 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:39:33.604893500 [INFO] - Creating Listen Socket at port: 6666
+23:39:33.606888700 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:39:33.606888700 [WAITING FIRST CONNECTION] 
+23:39:35.299569300 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=59085,localport=6666]
+23:39:41.884476200 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=59085,localport=6666] >
+23:39:41.886507400 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+23:39:41.887500600 [INFO] - Login Success. User: test - SessionID : WuV33h9yAvJxlm04fKU_LibFsQzq10kc
+23:39:41.994167100 [INFO] - SessionID: WuV33h9yAvJxlm04fKU_LibFsQzq10kc assigned to User: test
+23:39:54.461007 [INPUT] < WuV33h9yAvJxlm04fKU_LibFsQzq10kc assignIssue I0 test from: Socket[addr=/127.0.0.1,port=59085,localport=6666] >
+23:39:54.472981700 [INFO] User test assigned the issue: I0 to User: test at session WuV33h9yAvJxlm04fKU_LibFsQzq10kc
+23:40:40.105092500 [INPUT] < WuV33h9yAvJxlm04fKU_LibFsQzq10kc assignIssue I0 test from: Socket[addr=/127.0.0.1,port=59085,localport=6666] >
+23:40:40.106089900 [INFO] User test assigned the issue: I0 to User: test at session WuV33h9yAvJxlm04fKU_LibFsQzq10kc
+23:49:21.367434400java.net.SocketException: Connection reset
+23:49:26.342657500 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:49:26.343658200 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:49:26.773955700 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:49:26.776556300 [INFO] - Creating Listen Socket at port: 6666
+23:49:26.777554600 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:49:26.778550900 [WAITING FIRST CONNECTION] 
+23:49:28.269565700 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=59029,localport=6666]
+23:49:33.256234400 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=59029,localport=6666] >
+23:49:33.258264900 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+23:49:33.259227800 [INFO] - Login Success. User: test - SessionID : rCGq1Lsq7PGNEvRSxaAaJzVHk24jB1l3
+23:49:33.357517700 [INFO] - SessionID: rCGq1Lsq7PGNEvRSxaAaJzVHk24jB1l3 assigned to User: test
+23:49:45.261808100 [INPUT] < rCGq1Lsq7PGNEvRSxaAaJzVHk24jB1l3 assignIssue I0 test from: Socket[addr=/127.0.0.1,port=59029,localport=6666] >
+23:49:45.269820300 [INFO] User test assigned the issue: I0 to User: test at session rCGq1Lsq7PGNEvRSxaAaJzVHk24jB1l3
+23:50:14.868213200java.net.SocketException: Connection reset
+23:50:18.812895500 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+23:50:18.813892900 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+23:50:19.251719700 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+23:50:19.255708800 [INFO] - Creating Listen Socket at port: 6666
+23:50:19.257703500 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+23:50:19.258701500 [WAITING FIRST CONNECTION] 
+23:50:20.602332700 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=59040,localport=6666]
+23:50:25.645012800 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=59040,localport=6666] >
+23:50:25.646044700 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+23:50:25.647044300 [INFO] - Login Success. User: test - SessionID : OIxLHDWSbMgR0hIpn6EouendfBAf9brB
+23:50:25.748956400 [INFO] - SessionID: OIxLHDWSbMgR0hIpn6EouendfBAf9brB assigned to User: test
+23:50:31.946870800 [INPUT] < OIxLHDWSbMgR0hIpn6EouendfBAf9brB assignIssue I0 test from: Socket[addr=/127.0.0.1,port=59040,localport=6666] >
+23:50:31.954835600 [INFO] User test assigned the issue: I0 to User: test at session OIxLHDWSbMgR0hIpn6EouendfBAf9brB

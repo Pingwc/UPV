@@ -1,0 +1,50 @@
+17:48:35.016486700 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+17:48:35.018479600 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+17:48:35.392841200 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+17:48:35.395836200 [INFO] - Creating Listen Socket at port: 6666
+17:48:35.397374700 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+17:48:35.397374700 [WAITING FIRST CONNECTION] 
+17:48:37.158163500 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=52309,localport=6666]
+17:48:52.684186100 [INPUT] < -1 showIssues from: Socket[addr=/127.0.0.1,port=52309,localport=6666] >
+17:48:58.546963300 [INPUT] < -1 help from: Socket[addr=/127.0.0.1,port=52309,localport=6666] >
+17:49:04.563142100 [INPUT] < -1 login test test from: Socket[addr=/127.0.0.1,port=52309,localport=6666] >
+17:49:04.566476100 [DEBUG] - User: test | Pass DB: test  | Pass Input:  test
+17:49:04.567468500 [INFO] - Login Success. User: test - SessionID : 6InLFYrNnySke44R2OiFgVdrSOZFul_O
+17:49:04.585484200 [INFO] - SessionID: 6InLFYrNnySke44R2OiFgVdrSOZFul_O assigned to User: test
+17:49:29.054568100 [INPUT] < 6InLFYrNnySke44R2OiFgVdrSOZFul_O showIssue test from: Socket[addr=/127.0.0.1,port=52309,localport=6666] >
+17:49:29.057741400 [INFO] User test reply for Issue:test information at sesion 6InLFYrNnySke44R2OiFgVdrSOZFul_O
+20:06:20.598886600 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+20:06:20.600119300 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+20:06:20.887858200 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+20:06:20.889853200 [INFO] - Creating Listen Socket at port: 6666
+20:06:20.890850600 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+20:06:20.891848100 [WAITING FIRST CONNECTION] 
+20:06:22.508144600 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=53978,localport=6666]
+20:06:30.552160200 [INPUT] < -1 login from: Socket[addr=/127.0.0.1,port=53978,localport=6666] >
+20:06:37.105038800 [INPUT] < -1 login marcos marcos from: Socket[addr=/127.0.0.1,port=53978,localport=6666] >
+20:06:37.107983300 [DEBUG] - User: marcos | Pass DB: marcos  | Pass Input:  marcos
+20:06:37.110018800 [INFO] - Login Success. User: marcos - SessionID : Br01YfqsjpC12BEd1UfkOxXPIoTUbFM9
+20:06:37.125397200 [INFO] - SessionID: Br01YfqsjpC12BEd1UfkOxXPIoTUbFM9 assigned to User: marcos
+20:06:53.357290200 [INPUT] < Br01YfqsjpC12BEd1UfkOxXPIoTUbFM9 showIssues I1 from: Socket[addr=/127.0.0.1,port=53978,localport=6666] >
+20:07:06.378057500 [INPUT] < Br01YfqsjpC12BEd1UfkOxXPIoTUbFM9 showIssue I1 from: Socket[addr=/127.0.0.1,port=53978,localport=6666] >
+20:07:06.381173500 [INFO] User marcos reply for Issue:I1 information at sesion Br01YfqsjpC12BEd1UfkOxXPIoTUbFM9
+20:07:25.061515100 [INPUT] < Br01YfqsjpC12BEd1UfkOxXPIoTUbFM9 showIssue I0 from: Socket[addr=/127.0.0.1,port=53978,localport=6666] >
+20:07:25.062533400 [INFO] User marcos reply for Issue:I0 information at sesion Br01YfqsjpC12BEd1UfkOxXPIoTUbFM9
+20:37:49.272731 [INFO] ***** START RUNNING SERVER ***** DB: jdbc:sqlite:src/iso.db Listen Port: 6666
+20:37:49.273713300 [INFO] - Try to connect to DB  jdbc:sqlite:src/iso.db
+20:37:49.493530500 [INFO] - Connect to DB  jdbc:sqlite:src/iso.db - OK
+20:37:49.496628200 [INFO] - Creating Listen Socket at port: 6666
+20:37:49.497131600 [INFO] - ServerSocket created: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666]
+20:37:49.498128500 [WAITING FIRST CONNECTION] 
+20:38:03.272395300 [INFO] - New connection established at: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=6666] From: Socket[addr=/127.0.0.1,port=54090,localport=6666]
+20:38:22.338061400 [INPUT] < -1 login marcos marcos from: Socket[addr=/127.0.0.1,port=54090,localport=6666] >
+20:38:22.341209500 [DEBUG] - User: marcos | Pass DB: marcos  | Pass Input:  marcos
+20:38:22.342748700 [INFO] - Login Success. User: marcos - SessionID : xKciyaXF8uNToRUc_BiS76adHHxjVVe8
+20:38:22.362238300 [INFO] - SessionID: xKciyaXF8uNToRUc_BiS76adHHxjVVe8 assigned to User: marcos
+20:38:53.811376700 [INPUT] < xKciyaXF8uNToRUc_BiS76adHHxjVVe8 listWorkspace from: Socket[addr=/127.0.0.1,port=54090,localport=6666] >
+20:39:04.719754 [INPUT] < xKciyaXF8uNToRUc_BiS76adHHxjVVe8 listWorkspaces from: Socket[addr=/127.0.0.1,port=54090,localport=6666] >
+20:39:04.722745600 [INFO] User marcos reply for workspaces information at session xKciyaXF8uNToRUc_BiS76adHHxjVVe8
+20:39:22.620535300 [INPUT] < xKciyaXF8uNToRUc_BiS76adHHxjVVe8 addIssue I7 prueba from: Socket[addr=/127.0.0.1,port=54090,localport=6666] >
+20:39:59.946209200 [INPUT] < xKciyaXF8uNToRUc_BiS76adHHxjVVe8 addWorkspace w7 from: Socket[addr=/127.0.0.1,port=54090,localport=6666] >
+20:39:59.954901600 [INFO] User marcos added a workspace: w7 at sesion xKciyaXF8uNToRUc_BiS76adHHxjVVe8
+20:40:13.363511400 [INPUT] < xKciyaXF8uNToRUc_BiS76adHHxjVVe8 addIssue I7 w7 from: Socket[addr=/127.0.0.1,port=54090,localport=6666] >

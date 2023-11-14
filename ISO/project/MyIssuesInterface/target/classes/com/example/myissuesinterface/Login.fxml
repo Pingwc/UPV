@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myissuesinterface.LoginController">
+   <children>
+      <Text layoutX="595.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Text>
+      <TextField fx:id="username" layoutX="547.0" layoutY="372.0" prefHeight="31.0" prefWidth="188.0" promptText="Username" />
+      <PasswordField fx:id="password" layoutX="546.0" layoutY="444.0" prefHeight="31.0" prefWidth="188.0" promptText="Password" />
+      <Text layoutX="545.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+      <Text layoutX="546.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <Button id="Log In" layoutX="547.0" layoutY="493.0" mnemonicParsing="false" onAction="#handleButtonLogin" prefHeight="31.0" prefWidth="188.0" text="Log In" />
+      <Button id="Register" layoutX="547.0" layoutY="539.0" mnemonicParsing="false" onAction="#handleButtonRegister" prefHeight="31.0" prefWidth="188.0" style="-fx-background-color: grey;" text="Register" textFill="WHITE" />
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="539.0" layoutY="48.0">
+         <image>
+            <Image url="@../../../img/Logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
